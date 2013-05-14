@@ -16,4 +16,4 @@ matrix:
     - rvm: 2.0.0
 notifications:
   email:
-    - jens@endore.me
+    - dev@endore.me

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/endore-me/puppet-tmux.png?branch=master)](https://travis-ci.org/endore-me/puppet-tmux)
+
 Puppet Manifest for tmux
 ========================
 

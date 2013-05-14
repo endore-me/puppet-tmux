@@ -12,3 +12,5 @@ task :lint do
   end
   fail if linter.errors?
 end
+
+task ci: [ :lint, :spec ]

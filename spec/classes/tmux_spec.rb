@@ -5,6 +5,7 @@ describe 'tmux', type: 'class' do
     let :facts do
       { osfamily: 'Debian' }
     end
-    it { should contain_package('tmux') }
+    it { should contain_package 'tmux' }
+    it { should contain_file '/etc/tmux.conf' }
   end
 end

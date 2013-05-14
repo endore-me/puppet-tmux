@@ -10,6 +10,9 @@ gemfile:
   - gemfiles/Gemfile.puppet-3.0.2
   - gemfiles/Gemfile.puppet-3.1.1
   - gemfiles/Gemfile.puppet-3.2.0.rc
+matrix:
+  allow_failures:
+    - gemfile: gemfiles/Gemfile.puppet-3.2.0.rc
 notifications:
   email:
     - jens@endore.me

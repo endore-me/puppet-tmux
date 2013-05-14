@@ -1,3 +1,13 @@
+# == Class: tmux
+#
+# === Examples
+#
+# class { 'tmux': }
+#
+# or
+#
+# include tmux
+#
 class tmux {
   package { 'tmux':
     ensure => present,
@@ -6,7 +16,7 @@ class tmux {
     ensure => file,
     owner  => 'root',
     group  => 'root',
-    mode   => 644,
-    source => "puppet:///modules/tmux/tmux.conf"
+    mode   => '0644',
+    source => 'puppet:///modules/tmux/tmux.conf'
   }
 }

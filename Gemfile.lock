@@ -8,6 +8,7 @@ GEM
       metaclass (~> 0.0.1)
     puppet (2.7.21)
       facter (~> 1.5)
+    puppet-lint (0.3.2)
     puppetlabs_spec_helper (0.4.1)
       mocha (>= 0.10.5)
       rake
@@ -31,5 +32,6 @@ PLATFORMS
 DEPENDENCIES
   facter (= 1.6.17)
   puppet (= 2.7.21)
+  puppet-lint
   puppetlabs_spec_helper (= 0.4.1)
   rake (= 10.0.4)
